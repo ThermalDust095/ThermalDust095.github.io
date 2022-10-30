@@ -7,6 +7,10 @@ html{
     scroll-behavior: smooth;
 }
 
+.p{
+text-align: justify;
+}
+
 *{
     margin:0;
     padding: 0;
@@ -133,7 +137,6 @@ nav img{
     left: 50%;
     font-family: 'Kanit',sans-serif;
     transform: translate(-50%,-35%);
-    text-align: center;
     border: 3px #5CB8E4 solid;
     border-radius: 10px;
 }
@@ -214,7 +217,6 @@ nav img{
 
 .kenobi p{
     font-size: 17px;
-    text-align: center;
     padding-top: 30px;
 }
 
@@ -428,7 +430,7 @@ nav img{
   @media(max-width:700px){
 
         p{
-            text-align: left;
+            text-align: justify;
         }
         .progress-bar{
             display: none;
